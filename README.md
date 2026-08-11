@@ -1,0 +1,2 @@
+# LeetHazard
+Solutions of LeetCode 

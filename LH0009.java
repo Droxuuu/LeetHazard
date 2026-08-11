@@ -1,0 +1,13 @@
+class Solution {
+    public boolean isPalindrome(int x) {
+        int d,s=0,sn=x;
+        x=(int)Math.abs(x);
+        while(x!=0)
+        {
+            d=x%10;
+            s=s*10+d;
+            x=x/10;
+        }
+        return s==sn;
+    }
+}
